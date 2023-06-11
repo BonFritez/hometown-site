@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+h3 {
+  color: #231942;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-image: url("/images/sa-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 343px;
+}
+
+.hero-title {
+  margin: 122px auto 21px auto;
+  background-color: #231942;
+  padding: 3px 12px 5px 12px;
+  border-radius: 8px;
+  color: #ffff;
+}
+
+.hero-txt {
+  background-color: #5e548e;
+  padding: 5px 29px 8px 29px;
+  width: 355px;
+  margin: 0 auto;
+  border-radius: 8px;
+  color: #ffff;
+}
+
+.main-sect {
+  background-color: #e0b1cb;
+  margin: 0;
+  padding: 40px 83px;
+}
+
+.main-head {
+  color: #231942;
+  border-bottom: solid 2px #231942;
+  font-size: 30px;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0 0 0;
+}
+
+.activity {
+  margin: 55px 17px 38px 17px;
+  padding: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+.activity-head {
+  color: #231942;
+}
+
+.activity:hover {
+  border: solid 3px #231942;
+  background-color: #b5e2fa;
+  text-decoration: none;
+}
+
+#img-ht {
+  height: 100px;
+  border-radius: 100%;
+}
+
+.guide-sect {
+  width: 400px;
+  margin: 50px auto;
+  display: flex;
+  background-color: #be95c4;
+  border-radius: 10px;
+  box-shadow: 0px 6px 0px #5e548e;
+  padding: 10px;
+}
+
+.guide-sect:hover {
+  background-color: #b5e2fa;
+}
+#profile {
+  border-radius: 10px;
+  margin: 10px;
+}
